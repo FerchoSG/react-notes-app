@@ -1,0 +1,27 @@
+.home__content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+@media only screen and (max-width: 931px){
+    .home__content{
+        grid-template-columns: 65% 35%;
+    }
+}
+@media only screen and (max-width: 815px){
+    .home__content{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (max-width: 650px){
+    .home__content{
+        grid-template-columns: 50% 50%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .home__content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
